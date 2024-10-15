@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff; /* Change color on hover */
+    color: #EEAD0E; 
 }
 
 /* Main content */
@@ -82,7 +82,8 @@ main {
 h1, h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #007bff;
+
+    color: #EEAD0E; 
 }
 
 h1 {
@@ -191,11 +192,20 @@ input, textarea {
     font-size: 1rem; /* Increased from 0.9rem */
 }
 
+a {
+    color: #EEAD0E; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EEAD0E; 
+}
+
 button {
     margin-top: 1rem;
     padding: 0.75rem;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #EEAD0E; 
+    color: #333; /* Dark text for contrast */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -203,7 +213,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #EEAD0E; 
+    opacity: 0.8; /* Slightly transparent on hover for visual feedback */
 }
 
 /* Footer */
@@ -269,4 +280,24 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Afacad Flux', sans-serif;
     font-weight: 700; /* Adjust as needed */
+}
+
+/* Example: If you have any blue elements, add them here with yellow shades */
+.highlight {
+    color: #EEAD0E; 
+}
+
+/* Example: If you have any blue backgrounds */
+.blue-bg {
+    background-color: #FFFACD; /* Lemon chiffon */
+}
+
+/* Example: If you have a highlight class */
+.highlight {
+    color: #EEAD0E; 
+}
+
+/* Example: If you have any yellow backgrounds */
+.yellow-bg {
+    background-color: #EEAD0E; 
 }
